@@ -1,0 +1,37 @@
+<header>
+  <div class="container">
+    <div class="mennu">
+        <div class="logo">
+          <img src='/assets/img/HOFMANN.png'>
+        </div>
+        <div class="nav mr-auto">
+          <ul>
+            <li class='' *ngFor="let item of items"><a [routerLink]="item.link">{{item.content}}</a></li>
+          </ul>
+        </div>
+        <div class="icon">
+          <i class="fab fa-twitter fa-2x mr-4"></i>
+          <i class="fab fa-facebook-square fa-2x mr-4"></i>
+          <i class="fab fa-instagram fa-2x"></i>
+        </div>
+        <div class="dropdown">
+          <div class="dr_icon">
+            <i class="fas fa-caret-square-down fa-2x"></i>
+          </div>
+          <div class="dr_content">
+            <ul>
+              <li class='' *ngFor="let item of items"><a [routerLink]="item.link">{{item.content}}</a></li>
+            </ul>
+          </div>
+        </div>
+    </div>
+    <div class="information">
+      <h1 class='title'>See The Unmatched Beauty Of<br/>The Great Lakes</h1>
+      <iframe width="555" height="324"
+      src="https://www.youtube.com/embed/mAKsZ26SabQ"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+    </div>
+  </div>
+</header>

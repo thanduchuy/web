@@ -1,0 +1,17 @@
+<div  [className]=' bool ? "d-flex highlight" :"d-flex"'>
+  <div class="col-4">
+    <img src="{{url}}" alt="" srcset="">
+  </div>
+  <div class="col-8">
+    <h4 class='name'>{{name}}</h4>
+    <span class='job'>{{job}}</span>
+    <p class='cmt'>{{cmt}}</p>
+    <ul>
+      <li *ngFor="let item of items">
+        <a href=''>
+          <i class='{{item}} mr-4' style='color: #EBCB80;'></i>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>

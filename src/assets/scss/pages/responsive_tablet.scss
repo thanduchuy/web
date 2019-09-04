@@ -1,0 +1,76 @@
+@media only screen  and (min-width: 768px)
+and (max-width: 1024px)  {
+  header {
+    height: 564px;
+    .container {
+      .mennu{
+        .logo {
+          width: 22px;
+          height: 24px;
+          margin-top: 48pt;
+          margin-right: 50pt;
+        }
+        .icon {
+          position: relative;
+          right: 35px;
+          i{
+            width: 19.62px;
+            height: 15.94px;
+          }
+        }
+        .nav {
+          ul{
+            font-size: 12px;
+          }
+        }
+    }
+    .information {
+      .title{
+        font-size: 32px;
+        margin-top: 10pt;
+      }
+      iframe {
+        width: 345.63px;
+        height: 201.8px;
+      }
+    }
+  }
+}
+
+.features {
+  h2{
+    font-size: 32px;
+    margin-top: 50px;
+  }
+  p{
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  .col-xl-4{
+    position: relative;
+    right: 40px;
+    bottom:70px;
+  }
+  .img_pc {
+    display: none;
+  }
+  .img_tablet {
+    display: inline-block;
+    img {
+      width: 350px;
+      position: absolute;
+      right: -20px;
+    }
+  }
+}
+.plan {
+  h2 {
+    font-size: 32px;
+  }
+}
+.stay_touch {
+.mb {
+  display: none;
+}
+}
+}

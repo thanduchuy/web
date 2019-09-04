@@ -1,0 +1,9 @@
+<div [classList]='title==="SILVER"?"silver":title==="GOLD"?"gold":"plantium"'>
+    <h3>{{title}}</h3>
+    <p class='deal'><span>$</span>{{price}}</p>
+    <p class='year'>YEAR</p>
+    <ul>
+      <li *ngFor="let item of items">{{item}}</li>
+    </ul>
+    <button>PURCHASE</button>
+</div>

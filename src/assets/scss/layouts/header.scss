@@ -1,0 +1,51 @@
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/img/Background (3).png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  height: 768px;
+  color:white;
+  .container {
+    .mennu{
+      display: flex;
+      .logo {
+        width: 40px;
+        height: 43px;
+        margin-top: 48pt;
+        margin-right: 130pt;
+      }
+      .nav {
+          ul{
+            display: flex;
+            list-style: none;
+            font-size: 18pt;
+            line-height: 21px;
+            margin-top: 67pt;
+            li{
+              margin-right: 40pt;
+              a{
+                text-decoration: none;
+                color: white;
+              }
+            }
+          }
+    }
+    .dropdown {
+      display: none;
+    }
+    .icon {
+      margin-top: 60pt;
+    }
+  }
+  .information {
+    text-align: center;
+    .title{
+      font-weight: normal;
+      font-size: 48px;
+      margin-bottom: 53pt;
+      margin-top: 74pt;
+    }
+  }
+  }
+}
+

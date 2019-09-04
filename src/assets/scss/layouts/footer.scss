@@ -1,0 +1,152 @@
+footer {
+  background-image: url('/assets/img/background (2).png');
+  height: 374px;
+  color: #FFFFFF;
+  .col-xl-4 {
+    h2 {
+      font-size: 36px;
+      line-height: 42px;
+      color: #EBCB80;
+      margin-top: 38px;
+      margin-left: 10px;
+    }
+    p {
+      width: 270px;
+      font-size: 18px;
+      line-height: 24px;
+    }
+    span {
+      display: block;
+      margin-bottom: 25px;
+      margin-top: 24px;
+    }
+    .d-flex{
+      margin-top: 19px;
+      input {
+        height: 48px;
+        width: 262px;
+        text-align: center;
+        background: #7D7D7D;
+        color: white;
+        border-top-left-radius:10px;
+        border-bottom-left-radius:10px;
+      }
+      button {
+        height: 48px;
+        width: 51px;
+        color: #7D7D7D;
+        background: #EBCB80;
+        border-top-right-radius:10px;
+        border-bottom-right-radius:10px;
+      }
+      ::placeholder {
+        color: white;
+        opacity: 1;
+      }
+    }
+  }
+  .col-xl-8 {
+    margin-top: 89px;
+    ul {
+      list-style: none;
+      li{
+        margin-top: 14px;
+      }
+    }
+    .follow {
+      position: absolute;
+      top: 140px;
+      right: 80px;
+      h4{
+        display: block;
+        margin-bottom: 20px;
+        position: relative;
+        right: 240px;
+      }
+      ul{
+        position: absolute;
+        right: 35px;
+        color: #EBCB80;
+      }
+    }
+  }
+}
+@media (max-width: 575.98px) {
+  footer{
+    height: 550px;
+    .col-xl-4 {
+      text-align: center;
+      position: relative;
+      left: 20px;
+      h2 {
+        font-size: 24px;
+        position: relative;
+        right: 20px;
+      }
+      p {
+        width: 290px;
+        font-size: 12px;
+      }
+      .d-flex{
+        position: relative;
+        left: 20%;
+        input {
+          width: 132px;
+          height: 23.58px;
+        }
+        button {
+          width: 25.11px;
+          height: 23.58px;
+        }
+      }
+    }
+    .col-xl-8 {
+      margin-top: 20px;
+      ul{
+        position: relative;
+        right: 40px;
+        font-size: 12px;
+        li{
+          margin-top:8px;
+        }
+      }
+      .follow{
+        position: absolute;
+        top: 100px;
+        right: -20px;
+        h4 {
+          font-size: 12px;
+          position: relative;
+          right: 260%;
+        }
+      }
+    }
+  }
+}
+@media only screen  and (min-width: 768px)
+and (max-width: 1024px) {
+  footer {
+    .col-xl-4 {
+      h2 {
+        font-size: 24px;
+      }
+      p {
+        font-size: 12px;
+        width: 220px;
+      }
+      .d-flex {
+        input {
+          width: 100px;
+          height: 23.58px;
+        }
+        button {
+          width: 25px;
+          height: 23.58px;
+        }
+      }
+    }
+    .col-xl-8 {
+      margin-top:70px;
+    }
+  }
+}

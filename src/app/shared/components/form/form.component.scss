@@ -1,0 +1,47 @@
+button {
+  width: 198px;
+  height: 48px;
+  border-radius: 5em / 5em;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 20px;
+  border: 2px #EBCB80 solid;
+  background: #EBCB80;
+  border-radius: 5em/5em;
+
+}
+form{
+  width: 361px;
+  height: 212px;
+  text-align: center;
+  .d-flex {
+    margin-top: 100px;
+    input {
+      width: 166px;
+      height: 27px;
+    }
+  }
+  .area{
+    width: 247px;
+    height: 27px;
+    text-align: left;
+    position: relative;
+    right: 90px;
+    bottom: 50px;
+  }
+}
+@media (max-width: 575.98px) {
+  form{
+    margin-left: 20px;
+    .d-flex {
+      margin-top: 20px;
+    }
+    .area {
+      position: relative;
+      top:10px;
+    }
+  }
+  button{
+    margin-right: 15%;
+  }
+ }
