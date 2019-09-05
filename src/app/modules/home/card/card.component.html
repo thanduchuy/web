@@ -1,0 +1,12 @@
+<div class="card">
+  <div class="img" [ngStyle]="{'background-image':'url('+url+')'}">
+    <h4>{{title}}</h4>
+    <p>$<span>{{price}}</span></p>
+  </div>
+  <ul>
+    <li *ngFor="let item of items">
+      {{item}}
+    </li>
+  </ul>
+  <a>GET STARTED</a>
+</div>

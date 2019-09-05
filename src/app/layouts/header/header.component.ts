@@ -9,10 +9,22 @@ export class HeaderComponent implements OnInit {
 
   constructor() { }
   items = [
-    { link: '/hotel' , content: 'HOTELS' },
-    { link: '/airline' , content: 'AIRLINES' },
-    { link: '/vacation' , content: 'VACATIONS' },
-    { link: '/find' , content: 'FIND MORE' }
+    {
+      link : '/prices' ,
+      content : 'Prices'
+    },
+    {
+      link : '/booking' ,
+      content : 'Booking'
+    },
+    {
+      link : '/blog' ,
+      content : 'Blog'
+    },
+    {
+      link : '/services' ,
+      content : 'Services'
+    }
   ];
   ngOnInit() {
   }

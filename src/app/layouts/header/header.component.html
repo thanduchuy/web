@@ -1,37 +1,63 @@
 <header>
   <div class="container">
-    <div class="mennu">
-        <div class="logo">
-          <img src='/assets/img/HOFMANN.png'>
-        </div>
-        <div class="nav mr-auto">
-          <ul>
-            <li class='' *ngFor="let item of items"><a [routerLink]="item.link">{{item.content}}</a></li>
-          </ul>
-        </div>
-        <div class="icon">
-          <i class="fab fa-twitter fa-2x mr-4"></i>
-          <i class="fab fa-facebook-square fa-2x mr-4"></i>
-          <i class="fab fa-instagram fa-2x"></i>
-        </div>
-        <div class="dropdown">
-          <div class="dr_icon">
-            <i class="fas fa-caret-square-down fa-2x"></i>
-          </div>
-          <div class="dr_content">
+    <div class="row navpc">
+      <div class="col-xl-4 header_top">
+        <img src="/assets/img/HOFMANN.png" alt="" srcset="">
+      </div>
+      <div class="col-xl-8">
+        <div class="row">
+          <div class="col-xl-9">
             <ul>
-              <li class='' *ngFor="let item of items"><a [routerLink]="item.link">{{item.content}}</a></li>
+              <li *ngFor="let item of items">
+                <a [routerLink]="item.link" routerLinkActive="router-link-active" >
+                  {{item.content}}
+                </a>
+              </li>
             </ul>
           </div>
+          <div class="col-xl-3">
+            <i class="fas fa-search fa-1x"></i>
+            <select>
+              <option value="usa">US</option>
+              <option value="vietnam" selected>VN</option>
+              <option value="china">China</option>
+              <option value="japan">Japan</option>
+            </select>
+          </div>
         </div>
+      </div>
     </div>
-    <div class="information">
-      <h1 class='title'>See The Unmatched Beauty Of<br/>The Great Lakes</h1>
-      <iframe width="555" height="324"
-      src="https://www.youtube.com/embed/mAKsZ26SabQ"
-      frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen></iframe>
+    <div class="row">
+      <div class="col-xl-6 col-md-6 info">
+        <div class="title">
+          RESPONSIVE UI KIT
+        </div>
+        <div class="intro">
+          <h2>HOFMANN</h2>
+          <span>
+            We’re Bring It To The New Level
+          </span>
+          <p>
+            Every new computer that’s brought home from the store has an operating system installed onto it.
+            But what most new computer users don’t realize, is that without an operating system,
+            that computer would be a simple shell of possibilities.
+          </p>
+        </div>
+        <div class="down">
+          <img src='/assets/img/iPhone (1).png' class='phone'>
+          <div class="d-flex">
+              <a href="#">
+                <img src="/assets/img/appstore-badge.png" alt="" srcset="">
+              </a>
+              <a href="#">
+                <img src="/assets/img/google-play-badge.png" alt="" srcset="">
+              </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-6 col-md-6 banner">
+        <img src="/assets/img/iPhoneApp.png" alt="" srcset="">
+      </div>
     </div>
   </div>
 </header>

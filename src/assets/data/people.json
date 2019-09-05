@@ -1,0 +1,18 @@
+{
+  "data": [
+    {
+      "content": "It is not because things are difficult that we do not dare; it is because we do not dare that they are difficult.",
+      "name": "Seneca the Younger",
+      "job": "Editor in okodesign.net",
+      "avatar": "/assets/img/person (1).png",
+      "position":"left"
+    },
+    {
+      "content": "Attending a trade show can be a very effective method of promoting your company and its products.",
+      "name": "Rachel Moreno",
+      "job": "Lead Designer in okodesign.net",
+      "avatar": "/assets/img/person (2).png",
+      "position":"right"
+    }
+  ]
+}

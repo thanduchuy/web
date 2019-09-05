@@ -1,167 +1,116 @@
-<div class="features">
+<div class="result">
   <div class="container">
-    <h2>Features</h2>
-    <p>WE’RE TAKING IT TO THE NEXT LEVEL</p>
-    <div class="row">
-      <div class="col-xl-4 col-md-6 col-10">
-        <app-label *ngFor="let item of items" url='{{item.url}}' title="{{item.titel}}" value='{{item.value}}'></app-label>
-      </div>
-      <div class="col-xl-8 img_pc">
-        <img src="/assets/img/mac.png" alt="" class='banner'>
-      </div>
-      <div class="img_tablet col-md-6">
-        <img src="/assets/img/mac11.png" alt="" class='banner'>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="testimonials">
-    <div class="banner">
-      <h2>Get Your Free Version</h2>
-      <p>Having used discount toner cartridges for twenty years,
-        there have been a lot <br/> of changes in the toner cartridge market.
-        The market today is approximately a<br/> twenty billion dollar business.</p>
-      <button>DOWNLOAD</button>
-    </div>
-    <div class="comment">
-        <h2>Testimonials</h2>
-      <div class="container">
-        <app-rate *ngFor="let item of cmts"
-        url = '{{item.avatar}}'
-        name = '{{item.name}}'
-        job = '{{item.job}}'
-        cmt = '{{item.cmt}}'
-        connet = '{{item.icons}}'
-        highlight = {{item.highlight}}
-         ></app-rate>
-      </div>
-    </div>
-</div>
-<div class="plan">
-  <h2>Choose Your Plan</h2>
-  <div class="container">
-    <div class="row">
-      <app-plan class="col-xl-4 col-md-4" *ngFor="let item of plans" title='{{item.title}}' price='{{item.price}}' li='{{item.list}}'></app-plan>
-    </div>
-    <div class="row mobile">
-      <ul>
-        <li>Siver</li>
-        <li class='choose'>Gold</li>
-        <li>Platium</li>
-      </ul>
-    </div>
-  </div>
-</div>
-<div class="Portfolio">
-  <div class="container">
-    <h2>Portfolio</h2>
-    <div class="row first">
-      <div class="col-xl-4 col-6 col-md-4">
-        <i></i>
-      </div>
-      <div class="col-xl-4 col-6 mb">
-      </div>
-      <div class="col-xl-8 col-md-8 col-12">
-       <div class="content">
-        <h3>Blue Mountains</h3>
-        <span>17 Apr 2016</span><br/>
-        <i class="fas fa-grip-lines "></i><i class="fas fa-grip-lines "></i>
-        <p>Planning a vacation to Europe? No doubt you have certain expectations about your upcoming journey.</p>
-        <ul>
-          <li>9292<br/><i class="fas fa-eye format"></i><br>4</li>
-          <li><br/><i class="fas fa-heart"></i>1273</li>
-          <li>489<br/><i class="fas fa-comment-alt format"></i><br>4</li>
-        </ul>
-       </div>
-      </div>
-    </div>
-    <div class="row second">
-        <div class="col-xl-8 col-md-8 col-6">
+      <h2>Stunning Results</h2>
+      <span>Just look to the statistics we have generate the past year.</span>
+      <div class="row rt-container">
+        <div *ngFor="let item of dataStunning" class="col-xl-4 col-md-4 col-12">
+            <div id='circle' class="{{item.class}}">
+              <div class="overlay">{{item.number}},{{item.float}}</div>
+            </div>
+          <div class='value '>
+            <h3>
+              {{item.title}}
+            </h3>
+            <p>
+              {{item.value}}
+            </p>
+          </div>
         </div>
-        <div class="col-xl-8 col-6 mb">
-        </div>
-        <div class="col-xl-4 col-md-4 col-12">
-        </div>
-    </div>
-    <div class="row third">
-      <div class="col-xl-4 col-md-4 c1"></div>
-      <div class="col-xl-4 col-md-4 c2">
-        <h4>
-            Scenery Photos
-        </h4>
-        <span>BY EVGENY METILAN</span>
-        <i class="fas fa-grip-lines "></i><i class="fas fa-grip-lines "></i>
-        <h1>Wild Nature</h1>
       </div>
-      <div class="col-4 col-md-4 c3"></div>
-    </div>
-  </div>
-  <div class="class four">
-    <ul class="d-flex justify-content-center">
-      <li class='pre'><i class="fas fa-chevron-left"></i></li>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-      <li class='choose'>4</li>
-      <li>5</li>
-      <li class='next'><i class="fas fa-chevron-right"></i></li>
-    </ul>
   </div>
 </div>
 
-<div class="introduce">
-  <div class="d-flex" >
-    <div class='value'>
-        <h2>Gregory Francis</h2>
-        <span>CHIEF ENGINEER</span>
-        <p>I’ve started to work in company at 2009.
-           Photographs are a way of preserving a moment in our lives for the rest of our lives.
-           Many of us have at least been tempted at the flashy array of photo printers which seemingly leap off the shelves at even the least tech-savvy.
-           It surely seems old fashioned to talk about 35mm film and non-digital cameras in today’s day and age.</p>
-  </div>
-  <ul>
-    <li><i class="fas fa-circle"></i></li>
-    <li><i class="far fa-circle"></i></li>
-    <li><i class="far fa-circle"></i></li>
-    <li><i class="far fa-circle"></i></li>
-    <li><i class="far fa-circle"></i></li>
-  </ul>
- </div>
-</div>
-<div class="stay_touch">
-  <h2>Stay In Touch</h2>
-  <div class="container">
-    <div class="row">
-      <div class="col-xl-4 mb">
-        <img src="/assets/img/iPhoneApp.png" alt="" srcset="">
-      </div>
-      <div class="col-xl-4 col-md-6 col-12">
-        <app-form></app-form>
-      </div>
-      <div class="col-xl-4 col-md-6 col-12 connet">
-          <div class="d-flex">
-              <i class="fas fa-map-marker-alt"></i>
-              <p>2300 W Arbutus Dr Citrus<br/> Springs, FL 34434, USA</p>
-          </div>
-          <div class="d-flex">
-              <i class="fas fa-envelope"></i>
-              <p>contact@hofmannui.net</p>
-          </div>
-          <div class="d-flex">
-              <i class="fas fa-phone-alt"></i>
-              <p>793-891-7938, 952-775-6021</p>
-          </div>
-          <ul class='d-flex'>
-            <li><i class="fab fa-pinterest fa-2x mr-4"></i></li>
-            <li><i class="fab fa-invision fa-2x mr-4"></i></li>
-            <li><i class="fab fa-google-plus-g fa-2x mr-4"></i></li>
-            <li><i class="fab fa-twitter fa-2x mr-4"></i></li>
-            <li><i class="fab fa-facebook-square fa-2x mr-4"></i></li>
-          </ul>
+<div class="saying">
+  <app-carousel></app-carousel>
+  <div class="mobile">
+    <h2>What Clients are saying</h2>
+    <p>Businesses at present had creatively generated effective advertising campaigns
+      in the form of audio visual media that includes the television and radios
+       and the print media that cover the newspaper and campaign materials like the posters,
+      brochures, business cards, flyers and many more.</p>
+    <div class="d-flex">
+      <img src="/assets/img/person.png" alt="" srcset="">
+      <div class="">
+        <p>Ophelia Holland<br/><span>@ophelia_holland</span></p>
       </div>
     </div>
   </div>
 </div>
-<div class="map">
-  <ngui-map></ngui-map>
+
+<div class="product">
+  <h2>Recent Products</h2>
+  <p>Having used discount toner cartridges for twenty years,
+     there have been a lot of<br/> changes in the toner cartridge market
+     . The market today is approximately a<br/> twenty billion dollar business.</p>
+  <div class="container">
+    <div class="row">
+        <app-labels *ngFor="let item of dataProduct" class='col-xl-3 col-md-3 col-12'
+          src='{{item.img}}'
+          name= '{{item.name}}'
+          address= '{{item.address}}'
+          seen= '{{item.seen}}'
+          share= '{{item.share}}'
+        ></app-labels>
+    </div>
+  </div>
 </div>
+
+<div class="selling">
+  <div class="container">
+      <h2>Start Selling Instantly</h2>
+      <p>Start Selling With Your Pre-paid account.<br/> No deposit needed.</p>
+      <form action="">
+        <input type="text" placeholder="Email">
+        <button>REGISTER</button>
+      </form>
+  </div>
+</div>
+
+<div class="people">
+    <h2>What People Say</h2>
+    <div class="container">
+      <div class="row">
+        <div *ngFor="let item of dataPeople" class="col-xl-6 col-md-6 col-12">
+          <div [className]='item.position==="left"?"content-gold":"content-black"'>
+            <h1>"</h1>
+            <p>{{item.content}}</p>
+            <h4>{{item.name}}</h4>
+            <span>{{item.job}}</span>
+            <img src="{{item.avatar}}" alt="" srcset="">
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+<div class="subscribing">
+  <h2>Subscribing Plans</h2>
+  <div class="container">
+   <div class="row">
+    <app-card *ngFor="let item of dataSub" class="col-xl-3 col-md-3 col-6"
+    title='{{item.name}}'
+    price='{{item.price}}'
+    url='{{item.url}}'
+    list='{{item.list.join("*")}}'
+    ></app-card>
+   </div>
+  </div>
+</div>
+<div class="touch">
+  <h2>Get in Touch</h2>
+  <form action="">
+    <input class='name' type='text' placeholder="Name*">
+    <input class='email' type='text' placeholder="Email*">
+    <input class='msg' type='text' placeholder="Message">
+    <label class="myCheckbox"><input class='cb' type='checkbox' name='test'><span class="checkmark"></span>Most Urgent Question</label>
+    <button>SUBMIT</button>
+  </form>
+  <div class="container">
+      <ul>
+          <li><i class="fas fa-map-marker-alt mr-2"></i>2300 W Arbutus Dr Citrus Springs, FL 34434, USA</li>
+          <li><i class="far fa-envelope mr-2" ></i>contact@hofmannui.net</li>
+          <li><i class="fas fa-phone-alt mr-2"></i>952-775-6021</li>
+        </ul>
+  </div>
+</div>
+

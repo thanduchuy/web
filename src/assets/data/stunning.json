@@ -1,0 +1,25 @@
+{
+  "result":[
+    {
+      "class" : "radialProgressBar progress-70",
+      "number" :"74",
+      "float":"98",
+      "title":"TOTAL CONVERSION",
+      "value":"The past few years have seen a dramatic change in the public perception of cosmetic surgery."
+    },
+    {
+      "class" : "radialProgressBar progress-40",
+      "number" :"39",
+      "float":"75",
+      "title":"FREE DOWNOADS",
+      "value":"Can you imagine what we will be downloading in another twenty years?"
+    },
+    {
+      "class" : "radialProgressBar progress-80",
+      "number" :"81",
+      "float":"15",
+      "title":"UNIQUE VISITORS",
+      "value":"WordPress, the premier free open-source blogging utility, has gone through several upgrades in its life."
+    }
+  ]
+}

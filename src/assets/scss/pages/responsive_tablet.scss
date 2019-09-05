@@ -1,76 +1,238 @@
 @media only screen  and (min-width: 768px)
 and (max-width: 1024px)  {
   header {
-    height: 564px;
+    height: 450px;
     .container {
-      .mennu{
-        .logo {
-          width: 22px;
-          height: 24px;
-          margin-top: 48pt;
-          margin-right: 50pt;
+      .navpc {
+        display: none;
+      }
+      .info {
+        padding-left: 80px;
+        .title {
+          margin-top: 75px;
+          margin-bottom: 59px;
+          font-size: 12px;
         }
-        .icon {
-          position: relative;
-          right: 35px;
-          i{
-            width: 19.62px;
-            height: 15.94px;
+        .intro {
+          h2 {
+            font-size: 36px;
           }
-        }
-        .nav {
-          ul{
+          span {
             font-size: 12px;
           }
+          p {
+            font-size: 11px;
+            width: 283px;
+          }
         }
-    }
-    .information {
-      .title{
-        font-size: 32px;
-        margin-top: 10pt;
+        .down{
+          margin-top: 35px;
+          a{
+            img {
+              width: 71.91px;
+              height: 21.29px;
+            }
+          }
+        }
       }
-      iframe {
-        width: 345.63px;
-        height: 201.8px;
+      .banner {
+        margin-top: 0%;
+        text-align: center;
+        img {
+          width: 220px;
+          height: 337px;
+          margin: 113px;
+        }
       }
     }
   }
-}
 
-.features {
-  h2{
-    font-size: 32px;
-    margin-top: 50px;
-  }
-  p{
-    font-size: 12px;
-    margin-top: 10px;
-  }
-  .col-xl-4{
-    position: relative;
-    right: 40px;
-    bottom:70px;
-  }
-  .img_pc {
-    display: none;
-  }
-  .img_tablet {
-    display: inline-block;
-    img {
-      width: 350px;
-      position: absolute;
-      right: -20px;
+  .result {
+    .container {
+      height: 400px;
+      h2 {
+        font-size: 32px;
+        margin-top: 34px;
+      }
+      span {
+        font-size: 11px
+      }
+      h3 {
+        font-size: 12px;
+      }
+      .value {
+        text-align: center;
+        position: absolute;
+        left:70px;
+        top:200px;
+        p{
+          width: 139px;
+          font-size: 11px;
+        }
+      }
     }
   }
-}
-.plan {
-  h2 {
-    font-size: 32px;
+
+  .product {
+    height: 540px;
+    h2 {
+      font-size: 32px;
+      margin-top: 40px;
+    }
+    p{
+      font-size: 11px;
+    }
   }
-}
-.stay_touch {
-.mb {
-  display: none;
-}
-}
+
+  .selling {
+    height: 440px;
+    h2 {
+      font-size: 32px;
+    }
+    p{
+      font-size: 11px;
+    }
+    input {
+      display: block;
+      margin: 50px auto;
+      width: 230px;
+      height: 45px;
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+      border-radius: 4px;
+      padding-left: 15px;
+    }
+  }
+
+  .people {
+    height: 550px;
+    h2 {
+      font-size: 32px;
+      margin-top: 40px;
+      margin-bottom: 32px;
+    }
+    .content-gold{
+      padding-left: 49px;
+      p {
+        width: 219px;
+        font-size: 11px;
+      }
+      h4 {
+        font-size: 18px;
+      }
+      span {
+        font-size: 12px;
+      }
+      img {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        bottom: -40px;
+      }
+    }
+    .content-black {
+      padding-left: 49px;
+      margin-top: 0px;
+      p {
+        width: 219px;
+        font-size: 11px;
+      }
+      h4 {
+        font-size: 18px;
+      }
+      span {
+        font-size: 12px;
+      }
+      img {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        bottom: -40px;
+      }
+    }
+  }
+
+  .subscribing {
+    padding-top: 50px;
+    h2 {
+      font-size: 32px;
+      margin-bottom: 31px;
+    }
+  }
+  .touch {
+    padding-top: 60px;
+    h2 {
+      font-size: 31px;
+    }
+    form {
+      margin: 30px auto;
+      width: 290px;
+      height: 370.7px;
+      .name {
+        width: 220px;
+        margin: 10px auto;
+      }
+      .email {
+        width: 220px;
+        margin:10px auto;
+      }
+      .msg {
+        width: 220px;
+        height: 90px;
+        margin: 10px auto;
+      }
+      button {
+        width: 140px;
+        height: 40px;
+        margin: 0 auto;
+      }
+    }
+    .container {
+      padding-left: 5%;
+      ul {
+        display: flex;
+        margin: 0 auto;
+        li {
+          margin-right: 40px;
+          i {
+            color: white;
+          }
+          color: white;
+        }
+      }
+    }
+  }
+
+  footer {
+    height: 450px;
+    h3 {
+      width: 140px;
+      height: 40px;
+      font-size: 12px;
+      color: white;
+      border-bottom: 2px  #7D7D7D solid;
+    }
+    .end {
+      margin-top: 260px;
+      padding-top: 30px;
+      border-top: 2px  #7D7D7D solid;
+      p{
+        color: white;
+      }
+      .contact {
+        ul {
+          position: relative;
+          left: 420px;
+          bottom: 70px;
+          li {
+            i {
+              color: #EBCB80;
+              width: 16.56px;
+              height: 16.59px;
+            }
+          }
+        }
+      }
+
+    }
+  }
 }

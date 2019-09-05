@@ -1,0 +1,240 @@
+@media (max-width: 575.98px) {
+  header {
+    height: 425px;
+   .container {
+    .navpc {
+      display: none;
+    }
+    .banner {
+      display: none;
+    }
+    .info {
+      padding-left: 15% ;
+      .title {
+        font-size: 12px;
+        margin-top:44px;
+        margin-bottom:15px;
+      }
+      .intro {
+        h2 {
+          font-size: 32px;
+          margin-bottom: 10px;
+          margin-left: 10px;
+        }
+        span {
+          font-size: 12px;
+        }
+        p {
+          font-size: 11px;
+          width: 239px;
+        }
+      }
+      .down {
+        margin-top: 10px;
+        margin-left: 30px;
+        .phone {
+          display: block;
+          width: 169px;
+          height: 95px;
+          position: relative;
+          right: 20px;
+        }
+        a{
+          margin-right: 0px;
+          img {
+            width: 67.5px;
+            height: 20px;
+          }
+        }
+      }
+    }
+   }
+  }
+
+  .result {
+    .container {
+      margin-bottom: 50px;
+      h2 {
+        font-size: 20px;
+      }
+      span {
+        font-size: 11px;
+      }
+      h3 {
+        font-size: 12px;
+      }
+      .col-12{
+        height: 200px;
+        margin-bottom: 30px;
+        #circle {
+          position: absolute;
+          top:-50px;
+          left: 16%;
+        }
+      }
+      .value {
+        text-align: center;
+        position: absolute;
+        top: 150px;
+        left: 32%;
+        p{
+          width: 139.73px;
+          font-size: 11px;
+        }
+      }
+  }
+}
+
+.saying {
+  background: url('/assets/img/background\ \(3\).png');
+  height: 344px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  app-carousel {
+    display: none;
+  }
+  .mobile{
+    display: inline-block;
+    padding-left: 40px;
+    padding-top: 20px;
+    h2 {
+      font-size: 20px;
+      color: white;
+      margin-bottom: 56px;
+      margin-left: 30px;
+    }
+    p {
+      font-size: 12px;
+      color: white;
+      width: 240px;
+    }
+    .d-flex {
+      margin-left: 30px;
+      img {
+        width: 48px;
+        height: 48px;
+        margin-right: 10px;
+      }
+      p {
+        font-size: 12px;
+        color: #EBCB80;
+      }
+      span {
+        font-size: 11px;
+        color: white;
+      }
+    }
+  }
+}
+
+.product {
+  h2 {
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  p {
+    width: 240px;
+    font-size: 11px;
+    margin-left: 16%;
+  }
+  .col-12 {
+    margin-bottom: 40px;
+  }
+}
+.selling {
+  height: 360px;
+ margin-top: 350px;
+ padding-top: 60px;
+ h2 {
+  font-size: 20px;
+}
+p {
+  font-size: 11px;
+  margin-top: 23px;
+  margin-bottom: 30px;
+}
+input {
+  margin: 0 auto;
+}
+button {
+  margin-top: 50px;
+}
+}
+.people {
+  .content-gold {
+    display: none;
+  }
+  .content-black {
+    h1{
+      margin-right: 50px;
+    }
+    h4{
+      font-size: 18px;
+      color: #EBCB80;
+    }
+    p {
+      font-size: 11px;
+      width: 190px;
+    }
+    span {
+      font-size: 12px;
+    }
+    img {
+      width: 64px;
+      height: 64px;
+      position: absolute;
+      bottom:-32px;
+    }
+  }
+}
+.subscribing {
+  padding-top: 43px;
+  margin-bottom: 170px;
+  h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}
+.touch {
+  height: 800px;
+  h2 {
+    font-size: 31px;
+  }
+  form {
+    width: 290px;
+    height: 370.7px;
+    .name {
+      width: 220px;
+    }
+    .email{
+      width: 220px;
+    }
+    .msg {
+      width: 220px;
+    }
+    button {
+      width: 140px;
+      height: 40px;
+    }
+
+  }
+  .container {
+    padding-left: 0%;
+    ul {
+      display: inherit;
+      li {
+        margin-right: 0px;
+        display: block;
+        text-align: left;
+        i {
+          color: white;
+        }
+        color: white;
+      }
+    }
+  }
+}
+
+
+}

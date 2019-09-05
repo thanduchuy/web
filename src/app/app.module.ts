@@ -1,14 +1,11 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule, NO_ERRORS_SCHEMA  } from '@angular/core';
+import { NgModule } from '@angular/core';
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './layouts/header/header.component';
-import { MDBBootstrapModule } from 'angular-bootstrap-md';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { SharedModule } from './shared/shared.module';
+import { HttpClientModule } from '@angular/common/http';
 import { FooterComponent } from './layouts/footer/footer.component';
-
-
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,11 +15,8 @@ import { FooterComponent } from './layouts/footer/footer.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MDBBootstrapModule,
-    SharedModule,
-    BrowserAnimationsModule
+    HttpClientModule
   ],
-  schemas: [ NO_ERRORS_SCHEMA ],
   providers: [],
   bootstrap: [AppComponent]
 })

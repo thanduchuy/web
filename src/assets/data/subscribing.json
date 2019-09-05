@@ -1,0 +1,31 @@
+{
+  "data":[
+    {
+      "name": "FREEMIUM",
+      "url": "/assets/img/card-header.png",
+      "price": "0",
+      "list": ["Basic Collections","10 Messages","50 Images per Day"]
+    },
+    {
+
+      "name": "START UP",
+      "url": "/assets/img/card-header1.png",
+      "price": "9",
+      "list": ["Multiple Collections","100 Messages","100 Images per Day"]
+    },
+    {
+
+      "name": "BUSINESS",
+      "url": "/assets/img/card-header2.png",
+      "price": "29",
+      "list": ["Unlimited Collections","500 Messages","300 Images per Day","Project Reviews"]
+    },
+    {
+
+      "name": "ENTERPRISE",
+      "url": "/assets/img/card-header3.png",
+      "price": "49",
+      "list": ["Unlimited Collections","Unlimited Messages","Unlimited Images per Day","Project Reviews"]
+    }
+  ]
+}
